@@ -1,12 +1,42 @@
+html, body {
+  background: #efeff0;
+  margin: 0;
+}
+
 body {
   font-family: "Helvetica", sans-serif;
+  background: white;
+  width: 90%;
+  margin-top: 0;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0;
+  padding: 1% 0% 2.5% 1%;
 }
 
 h2 {
   color: #7A0019;
 }
 
-#contact {
-  background-color: #FFDE7A;
-  padding: 2%;
+code {
+  font-size: 1.2em;
+}
+
+#rawcode {
+  width: 97%;
+  padding: 1%;
+  background-color: #efeff0;
+}
+
+#references {
+  line-height: 1.5em;
+}
+
+footer {
+  border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 1.5em;
+	margin-top: 30px;
+  padding-top: 15px;
 }
