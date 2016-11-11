@@ -22,7 +22,7 @@ code {
   font-size: 1.2em;
 }
 
-#rawcode {
+.rawcode {
   width: 97%;
   padding: 1%;
   background-color: #efeff0;

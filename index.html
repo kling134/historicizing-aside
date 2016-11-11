@@ -70,7 +70,7 @@
 
 <p>The source code for the pull-quote in the above example looks like this:</p>
 
-<div id="rawcode">
+<div class="rawcode">
 <p><code>&lt;aside class=”pullquote instapaper_ignore”&gt;<br>
   “Did we all believe Clinton would win because of bad data, or did we ignore bad data because we believed Clinton would win?”<br>
   &lt;/aside&gt;</code></p>
@@ -81,6 +81,22 @@
 <figure>
   <img src="Images/relatedstory.jpg" width="800" height="625" alt="Related Story from TheAtlantic.com">
 </figure>
+
+<p>The source code for links to related stories is much more convoluted:</p>
+
+<div class="rawcode">
+<p><code>
+  &lt;aside class="callout" data-omni-click="r'article',r' ',d,r'related',#data-omni-index,@data-article-id"&gt;<br>
+  &lt;hr&gt;<br>
+  &lt;h4&gt;Related Story&lt;/h4&gt;<br>
+    &lt;div&gt;...&lt;/div&gt;<br>
+    &lt;p&gt;
+      &lt;a href="/international/archive/2016/11/trump-election-foreign-policy/505934/" data-omni-index="0" data-article-id="592082" data-omni-click="inherit"&gt;How Donald Trump Could Change the World&lt;/a&gt;
+    &lt;/p&gt;<br>
+    &lt;hr&gt;<br>
+  &lt;/aside&gt;
+</code></p>
+</div>
 
 <h2>References</h2>
 
