@@ -13,24 +13,24 @@
 
 <h2>Introduction</h2>
 
-<p>In her article <i>On the Relationship Between Old and New Technologies</i>, Christina Haas
+<p>In her 1999 article <i>On the Relationship Between Old and New Technologies</i>, Christina Haas
 </p>
 
 <h2>What is &lt;aside&gt;?</h2>
 
-<p>HTML, or Hypertext Markup Language, is the code that webpages are made of. The units of content within an HTML document are known as elements. Elements are demarcated by opening and closing tags.</p>
+<p>HTML, or Hypertext Markup Language, is the code that webpages are made of. The units of content within an HTML document are known as elements.</p>
 
-<p>Since its inception in the early 1990s, the language of HTML has undergone many changes. The specification for the latest iteration, HTML5, included several new elements, one of which was &lt;aside&gt;. According to the HTML5 specification, “The aside element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content.”</p>
+<p>Since its inception in the early 1990s, HTML has undergone many changes. The specification for the latest iteration, HTML5, included several new elements, one of which was &lt;aside&gt;. According to the HTML5 specification, “The aside element represents a section of a page that consists of content that is tangentially related to the content around the aside element, and which could be considered separate from that content.”</p>
 
-<p>Another way to understand what the &lt;aside&gt; element means is to consider the definition of the word itself—according to the Merriam-Webster dictionary, an aside is “a comment or discussion that does not relate directly to the main subject being discussed.” Thus, content wrapped in &lt;aside&gt; tags does not relate directly to the main content of the page.</p>
+<p>Another way to understand what the &lt;aside&gt; element means is to consider the definition of the word itself—according to the Merriam-Webster dictionary, an aside is “a comment or discussion that does not relate directly to the main subject being discussed.” Thus, content wrapped in &lt;aside&gt; tags can be said to not relate directly to the main content of the page.</p>
 
 <h3>Special features</h3>
 
-<p>The &lt;aside&gt; element belongs to the sectioning content model, which means that a new section is automatically created in the document outline when the &lt;aside&gt; element is employed. The other elements belonging to the sectioning content model are &lt;article&gt;, &lt;nav&gt;, and &lt;section&gt;.</p>
+<p>The &lt;aside&gt; element belongs to the sectioning content model, which means that a new section is automatically created in the document outline when the &lt;aside&gt; element is employed. The other elements belonging to the sectioning content model are &lt;article&gt;, &lt;nav&gt;, and &lt;section&gt;. Each of the four sectioning elements was new to HTML5.</p>
 
-<p>In addition, &lt;aside&gt; is a semantic element, which means that it describes its contents. One benefit of semantic markup is that it allows users of assistive technologies, such as screen readers for the visually impaired, to easily navigate from one content area to another.</p>
+<p>In addition, the &lt;aside&gt; element is noteworthy for its accessibility. &lt;aside&gt; is a semantic element, which means that it describes its contents. One benefit of semantic markup is that it allows users of assistive technologies, such as screen readers for the visually impaired, to easily navigate from one content area to another.</p>
 
-<p>According to the Mozilla Developer Network, “Accessible Rich Internet Applications (ARIA) defines ways to make Web content and Web applications…more accessible to people with disabilities.” ARIA consists of role, state, and property attributes that can be added to markup language such as HTML. The &lt;aside&gt; element carries a default ARIA role attribute value of <code>complementary</code>, which means that user agents such as browsers and screen readers will treat an &lt;aside&gt; element as a “supporting section of the document, designed to be complementary to the main content.”</p>
+<p>According to the Mozilla Developer Network, “Accessible Rich Internet Applications (ARIA) defines ways to make Web content and Web applications…more accessible to people with disabilities.” ARIA consists of role, state, and property attributes that can be added to markup language such as HTML. The &lt;aside&gt; element carries a default ARIA role attribute value of 'complementary,' which means that user agents such as browsers and screen readers will treat an &lt;aside&gt; element as a “supporting section of the document, designed to be complementary to the main content.”</p>
 
 <h2>The development of &lt;aside&gt;</h2>
 
@@ -38,7 +38,7 @@
 
 <p>Through the magic of CSS, web developers can style &lt;div&gt; elements so that they <em>appear</em> to be distinct page sections. However, if you remove the styling, it becomes apparent that &lt;div&gt; elements are really just part of the linear flow of the document. Indeed, that is exactly how the browser computes &lt;div&gt; elements, even when styling is present. As a result, users of assistive technologies may have a hard time accessing information on webpages that exclusively use the &lt;div&gt; element to group content.</p>
 
-<p>The problem with &lt;div&gt; is that it carries no meaning on its own. Web developers can imbue it with some meaning by assigning class or id attributes that describe the element’s contents, but this is more for the developer’s benefit than anyone else’s—the browser can’t meaningfully differentiate between &lt;div id="header"&gt; and &lt;div id="footer"&gt;. Furthermore, web developers are free to use whatever class and id attributes they please, which means there is little consistency from one webpage to the next.</p>
+<p>The problem with &lt;div&gt; is that it carries no meaning on its own. Web developers can imbue it with some meaning by assigning class or id attributes that describe the element’s contents, but this is more for the developer’s benefit than anyone else’s—the browser can’t meaningfully differentiate between <code>&lt;div id="header"&gt;</code> and <code>&lt;div id="footer"&gt;</code>. Furthermore, web developers are free to use whatever class and id attributes they please, which means there is little consistency from one webpage to the next.</p>
 
 <h3>New structural elements</h3>
 
@@ -52,7 +52,7 @@
 
 <p>As the name suggests, the &lt;sidebar&gt; element was initially intended to be used for columns of content on the side of a page. However, at some point, the scope of the &lt;sidebar&gt; element expanded to include any “tangentially related content.” Once the intended use of the &lt;sidebar&gt; element evolved, it was only appropriate to change the name of the element to match its new meaning.</p>
 
-<p><a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jul/0270.html" title="Ian Hickson" target="blank">Ian Hickson</a>, one of the editors who helped develop the HTML5 specification, favored the &lt;sidebar&gt; name change because he “wanted to avoid being too specific about the presentation in the name.”</p>
+<p><a href="http://lists.w3.org/Archives/Public/public-whatwg-archive/2008Jul/0270.html" title="Ian Hickson" target="blank">Ian Hickson</a>, one of the editors who helped develop the HTML5 specification, favored the &lt;sidebar&gt; name change because he “wanted to avoid being too specific about the presentation in the name.” Whereas the &lt;sidebar&gt; element prescribed a format for displaying tangentially related content, the &lt;aside&gt; element leaves the matter of presentation up to the web developer.</p>
 
 <h3>How was &lt;aside&gt; shaped by print media?</h3>
 
@@ -60,9 +60,9 @@
 
 <h2>Using &lt;aside&gt;</h2>
 
-<p>The HTML5 specification recommends that the &lt;aside&gt; element be used for “typographical effects like pull quotes or sidebars, for advertising, for groups of nav elements, and for other content that is considered separate from the main content of the page.” The specification explicitly discourages developers from using the &lt;aside&gt; element for parentheticals “since those are part of the main flow of the document.”</p>
+<p>The HTML5 specification recommends that the &lt;aside&gt; element be used for “typographical effects like pull quotes or sidebars, for advertising, for groups of nav elements, and for other content that is considered separate from the main content of the page.” The specification also explicitly discourages developers from using the &lt;aside&gt; element for parentheticals “since those are part of the main flow of the document.”</p>
 
-<p>One organization that has followed these recommendations is The Atlantic. The magazine’s online articles often employ the &lt;aside&gt; element for pull-quotes, as pictured below.</p>
+<p>One organization that has followed these recommendations is The Atlantic. The magazine’s online articles often employ the &lt;aside&gt; element for pull-quotes, as pictured below:</p>
 
 <figure>
   <img src="Images/pullquote.jpg" width="650" height="625" alt="Pull-quote from TheAtlantic.com">
@@ -82,17 +82,15 @@
   <img src="Images/relatedstory.jpg" width="800" height="625" alt="Related Story from TheAtlantic.com">
 </figure>
 
-<p>The source code for links to related stories is much more convoluted:</p>
+<p>The source code for the above link to a related story is much more convoluted, so it has been condensed for ease of legibility:</p>
 
 <div class="rawcode">
 <p><code>
-  &lt;aside class="callout" data-omni-click="r'article',r' ',d,r'related',#data-omni-index,@data-article-id"&gt;<br>
+  &lt;aside class="callout"...&gt;<br>
   &lt;hr&gt;<br>
   &lt;h4&gt;Related Story&lt;/h4&gt;<br>
     &lt;div&gt;...&lt;/div&gt;<br>
-    &lt;p&gt;
-      &lt;a href="/international/archive/2016/11/trump-election-foreign-policy/505934/" data-omni-index="0" data-article-id="592082" data-omni-click="inherit"&gt;How Donald Trump Could Change the World&lt;/a&gt;
-    &lt;/p&gt;<br>
+    &lt;p&gt;&lt;a href="/international/archive/2016/11/trump-election-foreign-policy/505934/"...&gt;How Donald Trump Could Change the World&lt;/a&gt;&lt;/p&gt;<br>
     &lt;hr&gt;<br>
   &lt;/aside&gt;
 </code></p>
