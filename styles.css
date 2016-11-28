@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-  font-family: "Helvetica", sans-serif;
+  font-family: "Avenir", sans-serif;
   background: white;
   width: 90%;
   margin-top: 0;
@@ -15,8 +15,17 @@ body {
   text-align: justify;
 }
 
+h1 {
+  font-family: "Book Antiqua", serif;
+}
+
 h2 {
+  font-family: "Book Antiqua", serif;
   color: #7A0019;
+}
+
+h3 {
+  font-family: "Book Antiqua", serif;
 }
 
 code {
